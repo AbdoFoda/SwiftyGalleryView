@@ -1,0 +1,6 @@
+framework module SwiftyGalleryView {
+  umbrella header "SwiftyGalleryView-umbrella.h"
+
+  export *
+  module * { export * }
+}

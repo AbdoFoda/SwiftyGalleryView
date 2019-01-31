@@ -1,0 +1,16 @@
+PODS:
+  - SwiftyGalleryView (0.1.0)
+
+DEPENDENCIES:
+  - SwiftyGalleryView (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftyGalleryView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftyGalleryView: 533271aba42265f5dc519ec4e08a1597c1efbbd9
+
+PODFILE CHECKSUM: 7fc4f7c11bc61e166d38985151ab4fafabcf3ddd
+
+COCOAPODS: 1.5.3

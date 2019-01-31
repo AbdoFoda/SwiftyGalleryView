@@ -1,0 +1,22 @@
+{
+  "name": "SwiftyGalleryView",
+  "version": "0.1.0",
+  "summary": "A short description of SwiftyGalleryView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/AbdoFoda/SwiftyGalleryView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "AbdoFoda": "abdofoda@stud.fci-cu.edu.eg"
+  },
+  "source": {
+    "git": "https://github.com/AbdoFoda/SwiftyGalleryView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SwiftyGalleryView/Classes/**/*"
+}

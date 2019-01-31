@@ -37,7 +37,7 @@ pod 'SwiftyGalleryView'
 
 ## Author
 
-AbdoFoda, abdofoda@stud.fci-cu.edu.eg
+AbdoFoda, abdofoda2016@gmail.com
 
 ## License
 

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SwiftyGalleryView_Example' do
+  pod 'SwiftyGalleryView', :path => '../'
+
+  target 'SwiftyGalleryView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

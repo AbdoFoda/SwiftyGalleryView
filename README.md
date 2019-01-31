@@ -1,5 +1,5 @@
 # SwiftyGalleryView
-[![CI Status](https://img.shields.io/travis/AbdoFoda/SwiftyGalleryView.svg?style=flat)](https://travis-ci.org/AbdoFoda/SwiftyGalleryView)
+
 [![Version](https://img.shields.io/cocoapods/v/SwiftyGalleryView.svg?style=flat)](https://cocoapods.org/pods/SwiftyGalleryView)
 [![License](https://img.shields.io/cocoapods/l/SwiftyGalleryView.svg?style=flat)](https://cocoapods.org/pods/SwiftyGalleryView)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftyGalleryView.svg?style=flat)](https://cocoapods.org/pods/SwiftyGalleryView)

@@ -13,4 +13,4 @@ xcode_destination: platform=iOS Simulator,OS=12,name=iPhoneX
 # - pod install --project-directory=Example
 script:
 - set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/SwiftyGalleryView.xcworkspace -scheme SwiftyGalleryView-Example -sdk iphonesimulator9.3 ONLY_ACTIVE_ARCH=NO | xcpretty
-- pod lib lint
+- pod lib lint --allow-warnings

@@ -8,18 +8,18 @@
 import Foundation
 import UIKit
 
-class GalleryView : UIView  {
+public class GalleryView : UIView  {
     
     private var images = [UIImage]() {
         didSet {
             setNeedsDisplay()
         }
     }
-    func initialize(with images:[UIImage]){
+    public func initialize(with images:[UIImage]){
         self.images = images
     }
     
-    override func didMoveToSuperview() {
+    override public func didMoveToSuperview() {
         let leftSwipe = UISwipeGestureRecognizer(target: self, action: #selector(self.swipeToLeft))
         leftSwipe.direction = .left
         self.addGestureRecognizer(leftSwipe)
@@ -46,15 +46,15 @@ class GalleryView : UIView  {
         }
     }
     
-    func addToLast(image : UIImage) {
+    public func addToLast(image : UIImage) {
         images.append(image)
     }
     
-    func clearContent() {
+    public func clearContent() {
         images.removeAll()
     }
     
-    override func draw(_ rect: CGRect) {
+    override public func draw(_ rect: CGRect) {
         if images.count == 1 {
             images[curIdx].draw(in: bounds)
         }else if images.count > 1{

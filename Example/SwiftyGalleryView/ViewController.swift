@@ -2,23 +2,23 @@
 //  ViewController.swift
 //  SwiftyGalleryView
 //
-//  Created by AbdoFoda on 01/31/2019.
-//  Copyright (c) 2019 AbdoFoda. All rights reserved.
+//  Created by Abdo on 1/29/19.
+//  Copyright © 2019 Abdo. All rights reserved.
 //
 
 import UIKit
+import SwiftyGalleryView
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let pubg_images = [#imageLiteral(resourceName: "winner") , #imageLiteral(resourceName: "looser") , #imageLiteral(resourceName: "drop")]
+        self.galleryStack.initialize(with: pubg_images)
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
+    @IBOutlet weak var galleryStack: GalleryView!
+    
 }
 

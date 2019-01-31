@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## SwiftyGalleryView
 
-Copyright (c) 2019 AbdoFoda <abdofoda@stud.fci-cu.edu.eg>
+Copyright (c) 2019 AbdoFoda <abdofoda2016@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

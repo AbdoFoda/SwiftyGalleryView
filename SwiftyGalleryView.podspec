@@ -37,6 +37,6 @@ Do you love to have a window to scroll your Images in your iOS app? Here you are
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-   s.frameworks = 'UIKit'
+   s.frameworks = 'UIKit' , 'Foundation'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

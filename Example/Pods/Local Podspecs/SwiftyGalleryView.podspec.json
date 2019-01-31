@@ -1,8 +1,8 @@
 {
   "name": "SwiftyGalleryView",
   "version": "0.1.0",
-  "summary": "A short description of SwiftyGalleryView.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "Scrollable Images Stack",
+  "description": "Do you love to have a window to scroll your Images in your iOS app? Here you are.",
   "homepage": "https://github.com/AbdoFoda/SwiftyGalleryView",
   "license": {
     "type": "MIT",
@@ -18,5 +18,9 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "SwiftyGalleryView/Classes/**/*"
+  "source_files": "Classes/*",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ]
 }
